@@ -3,9 +3,9 @@
 // document.querySelector('.guess').textcontent="something"; --->Acces a string
 
 const secretNumber=Math.trunc((Math.random())*20)+1;
-const maxnumber=20;
-document.querySelector('.number1').textContent=Math.trunc(maxnumber/2);
-
+let maxnumber=20;
+document.querySelector('.number1').textContent=Math.trunc(maxnumber/2.25);
+document.querySelector('#guess').value=1;
 document.querySelector('#check').addEventListener('click',function()
 {
     document.querySelector('.number').textContent=(document.querySelector('#guess').value);
