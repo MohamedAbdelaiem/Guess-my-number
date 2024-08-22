@@ -2,6 +2,8 @@
 
 Welcome to **Guess My Number** – a simple and fun game where you try to guess a secret number within a limited number of attempts. Test your intuition and see how quickly you can find the right number!
 
+![Guess My Number Game Screenshot](photo.png)
+
 ## 🌟 Features
 
 - **Interactive Gameplay**: Enter your guess and receive immediate feedback.
